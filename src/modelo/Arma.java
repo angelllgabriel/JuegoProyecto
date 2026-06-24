@@ -13,5 +13,11 @@ public Arma(String nombre, int danoMaximo){
     public int getDanoMaximo(){
         return danoMaximo;
     }
+    public int calcularDaño() {
+    return (int)(Math.random() * danoMaximo) + 1;
 }
+
+}
+
+
 
