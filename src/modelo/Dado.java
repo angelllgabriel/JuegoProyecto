@@ -30,6 +30,9 @@ public class Dado{
         return CaraDado;
     }
 
-    
+    //metodo para lanzar el dado en un rango personalizado para ataques
+    public int lanzar(int minimo, int maximo){
+        return(int) (Math.random()*(maximo - minimo + 1)) + minimo;
+    }
 
 }
