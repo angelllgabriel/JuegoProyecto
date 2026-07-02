@@ -1,3 +1,4 @@
+package modelo;
 public class Dado{
     private int caras;
     private int CaraDado;

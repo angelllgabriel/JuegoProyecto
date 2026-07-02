@@ -1,3 +1,4 @@
+package modelo;
 public class Arma {
     private String nombre;
     private int danoMaximo;
